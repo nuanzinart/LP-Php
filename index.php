@@ -114,7 +114,8 @@
 		include_once("config.php");
 
 		function query_to_base($val){
-
+ 
+ 
 
 			$link = mysqli_connect($db_host, $db_user, $db_password, $db_base) or die('Ошибка' . mysqli_error($link));
 
